@@ -1,0 +1,19 @@
+# ---- 作業系統 / 編輯器垃圾 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# ---- 若之後真的引入 node 工具鏈才會用到（目前零建置，用不到） ----
+node_modules/
+dist/
+.wrangler/
+
+# ---- 個人筆記：不是網站內容，不要 push 到公開 repo ----
+# （檔案仍留在磁碟，只是不納入版本控制 / 不部署。要公開就刪掉對應這行）
+工作日誌.md
+CN_state_dump_template.md
+CTF_思考路徑.md
