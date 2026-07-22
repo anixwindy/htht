@@ -1,3 +1,4 @@
+<!-- date: 2026-07-23; tags: heap, glibc, pwn -->
 # Heap UAF 入門 — tcache poisoning 打 __free_hook
 
 > **題型**：UAF（use-after-free）+ 可控 malloc/free/edit
