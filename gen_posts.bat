@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
-cd /d D:\Cthis\web
-py "D:\Cthis\Pythis\gen_posts.py"
+cd /d "%~dp0"
+py "%~dp0gen_posts.py"
 if errorlevel 1 (
   echo.
   echo [ERROR] gen_posts.py failed. See message above.

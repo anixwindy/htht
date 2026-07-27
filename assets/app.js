@@ -45,13 +45,13 @@ async function renderIndex() {
     const arr = (data.weekly || []).slice().sort(byDateDesc);
     weeklyEl.innerHTML = arr.length
       ? arr.map(itemHTML).join('')
-      : '<li class="status">（還沒有週進度）</li>';
+      : '<li class="status">（還沒有工作回報）</li>';
   }
   if (writeEl) {
     const arr = (data.writeups || []).slice().sort(byDateDesc);
     writeEl.innerHTML = arr.length
       ? arr.map(itemHTML).join('')
-      : '<li class="status">（還沒有 writeup）</li>';
+      : '<li class="status">（還沒有完成的專案）</li>';
   }
 }
 
@@ -95,7 +95,7 @@ async function renderPost() {
 
   // 標題同步到分頁
   const h1 = el.querySelector('h1');
-  if (h1) document.title = h1.textContent + ' · pwn notes';
+  if (h1) document.title = h1.textContent + ' · game_log';
 }
 
 /* ---------- 進入點 ---------- */

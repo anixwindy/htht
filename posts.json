@@ -1,21 +1,10 @@
 {
   "weekly": [
     {
-      "title": "2026 7月 W3 — 週進度",
-      "file": "posts/2026-07-20_週進度.md",
-      "date": "2026-07-20"
+      "title": "2026-07-27 — 工作回報 #0：方向定案 & 工作區建立",
+      "file": "posts/2026-07-27_工作回報.md",
+      "date": "2026-07-27"
     }
   ],
-  "writeups": [
-    {
-      "title": "Heap UAF 入門 — tcache poisoning 打 __free_hook",
-      "file": "posts/heap_uaf_tcache_writeup.md",
-      "date": "2026-07-23",
-      "tags": [
-        "heap",
-        "glibc",
-        "pwn"
-      ]
-    }
-  ]
+  "writeups": []
 }
