@@ -12,3 +12,10 @@ __pycache__/
 
 # 本機預覽伺服器暫存 / 雜物
 *.log
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
